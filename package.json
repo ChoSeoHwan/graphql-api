@@ -32,6 +32,6 @@
     "eslint": "eslint \"./src/**/*.ts\"",
     "eslint:fix": "yarn eslint --fix",
     "lint-staged": "lint-staged",
-    "dev": "cross-env NODE_ENV=development nodemon src/index.ts"
+    "dev": "cross-env NODE_ENV=development nodemon --config .config/nodemon.json src/index.ts"
   }
 }
