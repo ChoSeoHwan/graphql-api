@@ -1,0 +1,15 @@
+# IDE config
+.idea
+
+# modules
+node_modules
+
+# distribution
+dist
+
+# log files
+*.log
+logs
+
+# environment
+.env
